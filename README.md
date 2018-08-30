@@ -20,4 +20,15 @@ project structure (uncheck that option).
 * Save
 * Add HDL wrapper
 * Build the project
+* Export it into SDK
+* Create new application project for FSBL
+* Under _Xilinx_ select __Create Boot Image__
+* For _Architecture_ select __Zynq MP__
+* For _Output BIF file_ select root folder
+* In _Boot image partitions_ select _Add_ and add __FSBL.elf__.  This will be
+* the bootloader.
+* Also add the bitstream for the FPGA, and generate.
+* This created BOOT.bin in root.  Put it on microSD card and boot.
+
+This document describes what needs to go into gitignore: [AR# 69415](https://www.xilinx.com/support/answers/69415.html)
 
