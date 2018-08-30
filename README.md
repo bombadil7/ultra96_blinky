@@ -11,12 +11,12 @@ project structure (uncheck that option).
 * Right click on .v and add it to block diagram.
 * Right click on block diagram and add port LED as output
 * Right click and add IP Clocking Wizard
-*- Double-click CW block and enable Auto Primitive
-*- Change output clock to 12MHz
+* Double-click CW block and enable Auto Primitive
+* Change output clock to 12MHz
 * Add IP Zynq.  We will use its clock 
-** Run block automation
-** Double click Zynq and unclick things in High-speed IO
-** Disable PS-PL stuff
+* Run block automation
+* Double click Zynq and unclick things in High-speed IO
+* Disable PS-PL stuff
 * Save
 * Add HDL wrapper
 * Build the project
