@@ -18,6 +18,8 @@
 *.cache
 *.hw
 *.srcs
+build
+sources/sdk_work
 
 #########
 #Source files:
@@ -77,7 +79,7 @@
 #########
 #Journal - files
 #########
-!*.jou
+#!*.jou
 #########
 #Reports
 #########
@@ -89,6 +91,6 @@
 #########
 !*.c
 !*.h
-!*.elf
+#!*.elf
 !*.bmm
 !*.xmp

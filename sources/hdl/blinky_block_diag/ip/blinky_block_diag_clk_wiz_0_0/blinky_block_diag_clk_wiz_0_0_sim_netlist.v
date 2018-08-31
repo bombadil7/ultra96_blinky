@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
 // Date        : Thu Aug 30 07:05:07 2018
 // Host        : LAPTOP-EPOJV2QA running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/Users/akniazev/Documents/work/VivadoWork/ultra96_blinky_02/sources/hdl/blinky_block_diag/ip/blinky_block_diag_clk_wiz_0_0/blinky_block_diag_clk_wiz_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top blinky_block_diag_clk_wiz_0_0 -prefix
+//               blinky_block_diag_clk_wiz_0_0_ blinky_block_diag_clk_wiz_0_0_sim_netlist.v
 // Design      : blinky_block_diag_clk_wiz_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -27,7 +27,6 @@ module blinky_block_diag_clk_wiz_0_0
         .clk_out1(clk_out1));
 endmodule
 
-(* ORIG_REF_NAME = "blinky_block_diag_clk_wiz_0_0_clk_wiz" *) 
 module blinky_block_diag_clk_wiz_0_0_blinky_block_diag_clk_wiz_0_0_clk_wiz
    (clk_out1,
     clk_in1);
